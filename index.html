@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Portfolio</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript
+      ><link rel="stylesheet" href="assets/css/noscript.css"
+    /></noscript>
+  </head>
+  <body class="is-preload">
+    <!-- Wrapper -->
+    <div id="wrapper">
+      <!-- Main -->
+      <section id="main">
+        <header>
+          <h1>Elizabeth Gallagher</h1>
+          <p>Software Engineer</p>
+        </header>
+
+        <hr />
+
+        <ul class="actions special">
+          <li>
+            <a href="/Resume.docx" download class="button"
+              ><i class="fas fa-file-download"></i> Resume</a
+            >
+          </li>
+          <li>
+            <a href="http://www.github.com/iamgallagher" class="button"
+              ><i class="fas fa-code"></i> Projects</a
+            >
+          </li>
+        </ul>
+        <hr />
+
+        <footer>
+          <ul class="icons">
+            <li>
+              <a
+                href="https://github.com/iamgallagher"
+                class="icon brands fa-github"
+                >GitHub</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://twitter.com/hungrygallagher"
+                class="icon brands fa-twitter"
+                >Twitter</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://linkedin.com/in/iamgallagher"
+                class="icon brands fa-linkedin"
+                >fa-linkedin</a
+              >
+            </li>
+          </ul>
+        </footer>
+      </section>
+
+      <!-- Footer -->
+      <footer id="footer">
+        <ul class="copyright">
+          <li>&copy; Elizabeth Gallagher - 2021</li>
+        </ul>
+      </footer>
+    </div>
+
+    <!-- Scripts -->
+    <script>
+      if ("addEventListener" in window) {
+        window.addEventListener("load", function () {
+          document.body.className = document.body.className.replace(
+            /\bis-preload\b/,
+            ""
+          );
+        });
+        document.body.className += navigator.userAgent.match(/(MSIE|rv:11\.0)/)
+          ? " is-ie"
+          : "";
+      }
+    </script>
+  </body>
+</html>

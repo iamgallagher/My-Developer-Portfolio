@@ -1,2 +1,2 @@
-# portfolio-beta
-updated portfolio resume
+# MyPortfolio
+My Developer Resume
