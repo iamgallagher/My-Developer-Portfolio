@@ -1,2 +1,2 @@
-# MyPortfolio
-My Developer Resume
+# My Developer Portfolio
+
